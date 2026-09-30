@@ -20,13 +20,13 @@ export interface SocialLink {
 export const SITE = {
   /** Absolute origin of the deployed site. No trailing slash. */
   url: "https://sumi.p4ni.com",
-  title: "Sumi",
+  title: "#webscale",
   /**
    * Short Japanese mark used for the vertical rail and the loading screen.
    * Set to an empty string to drop the Japanese accents entirely.
    */
-  titleMark: "墨",
-  tagline: "An Astro theme in ink and paper",
+  titleMark: "",
+  tagline: "Rob's corner of the internet",
   description:
     "Sumi is a minimal Astro theme built around ink, washi paper and generous negative space. Dual light and dark themes, zero client JavaScript on article pages, and a WebGL ink simulation on the front page.",
   /** BCP 47 language tag, written to <html lang>. */
